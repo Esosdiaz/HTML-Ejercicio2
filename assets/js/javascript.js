@@ -233,5 +233,5 @@ var usuarios = [
 
 usuarios.forEach(
 function(element){
-  document.write("<div class= usuarios><h2><strong><center>" + element.name + "</center></strong></h2><p><center>" + element.address.street + " " + element.address.suite + " " + element.address.city + "</center></p></div>");
+  document.write("<div class= usuarios><h2><strong><center>" + element.name + "</center></strong></h2><p><center>" + element.address.street + " " + element.address.suite + " " + element.address.city + "</center></p><br></div>");
 });
